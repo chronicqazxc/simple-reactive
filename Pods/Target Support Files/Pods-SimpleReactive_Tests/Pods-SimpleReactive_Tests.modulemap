@@ -1,0 +1,6 @@
+framework module Pods_SimpleReactive_Tests {
+  umbrella header "Pods-SimpleReactive_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SimpleReactive {
+  umbrella header "SimpleReactive-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "SimpleReactive",
+  "version": "0.1.0",
+  "summary": "A short description of SimpleReactive.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chronicqazxc/SimpleReactive",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chronicqazxc": "chronicqazxc@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chronicqazxc/SimpleReactive.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Source",
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "SimpleReactive/Classes/**/*",
+      "resource_bundles": {
+        "SimpleReactive": [
+          "SimpleReactive/Assets/**/*.{storyboard,xib,jpg,png,plist,xcassets,strings}"
+        ]
+      }
+    },
+    {
+      "name": "Prebuilt",
+      "ios": {
+        "vendored_frameworks": "PrebuiltFramework/SimpleReactive.framework"
+      }
+    }
+  ]
+}

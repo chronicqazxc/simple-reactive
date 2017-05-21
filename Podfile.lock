@@ -1,0 +1,18 @@
+PODS:
+  - SimpleReactive (0.1.0):
+    - SimpleReactive/Source (= 0.1.0)
+  - SimpleReactive/Source (0.1.0)
+
+DEPENDENCIES:
+  - SimpleReactive (from `.`)
+
+EXTERNAL SOURCES:
+  SimpleReactive:
+    :path: .
+
+SPEC CHECKSUMS:
+  SimpleReactive: e11817bbb2f21cbe0b53b8b64bb4a5c1ec72b2fb
+
+PODFILE CHECKSUM: 84e1a8987975b3604a2a8bb9e5a59c8ae8ff315a
+
+COCOAPODS: 1.2.1

@@ -1,6 +1,6 @@
 # SimpleReactive
 
-[![CI Status](http://img.shields.io/travis/chronicqazxc/SimpleReactive.svg?style=flat)](https://travis-ci.org/chronicqazxc/SimpleReactive)
+[![CI Status](http://img.shields.io/travis/chronicqazxc/simple-reactive.svg?style=flat)](https://travis-ci.org/chronicqazxc/simple-reactive)
 [![Version](https://img.shields.io/cocoapods/v/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
 [![License](https://img.shields.io/cocoapods/l/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
 [![Platform](https://img.shields.io/cocoapods/p/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)

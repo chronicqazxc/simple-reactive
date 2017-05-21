@@ -41,9 +41,9 @@ TODO: Add long description of the pod here.
       # }
   end
   
-  s.subspec 'Prebuilt' do |prebuilt|
-      prebuilt.ios.vendored_framework = 'Carthage/Build/iOS/SimpleReactive.framework'
-  end
+  # s.subspec 'Prebuilt' do |prebuilt|
+  #     prebuilt.ios.vendored_framework = 'Carthage/Build/iOS/SimpleReactive.framework'
+  # end
   
   # s.resource_bundles = {
   #   'SimpleReactive' => ['SimpleReactive/Assets/*.png']

@@ -10,25 +10,17 @@
 		0FDD572EB80DE2CEB91D4EA83BE2F123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		2AB33D269DE8958F02E8B3381E573B2C /* Pods-SimpleReactive_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A60CD42827992C9FC14E4643BE7C4C /* Pods-SimpleReactive_Example-dummy.m */; };
 		3F5E37FF27D9382B4031D2BA9FDD4686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4A723CC8367BB8D4DA1264D3E8D6FCA9 /* SimpleReactive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0088ADDD9F8D42F00BE3FB16CCDF7F91 /* SimpleReactive-dummy.m */; };
+		4A723CC8367BB8D4DA1264D3E8D6FCA9 /* SimpleReactive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80B06565177ACF7729CD965F84408DAC /* SimpleReactive-dummy.m */; };
 		53A4B145E267F0474CDEC2ED4C75A2A8 /* Pods-SimpleReactive_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF54BAC33FB5DA321A325A2BACCD00B /* Pods-SimpleReactive_Tests-dummy.m */; };
-		620EEA69C3733676082620E3E61CD8C2 /* SimpleReactive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62A84D2E1DDEE2837F1BBFDEE8DCC4E4 /* SimpleReactive.bundle */; };
-		6A5080F76806F2BCAB8106CB8C9EEEF1 /* SimpleReactive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4522CFD151231E544DBD47DB32AE9D33 /* SimpleReactive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		901D360AD1393F328847B0B5033E39D0 /* SimpleReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94864828918778537FE2E74EF894397F /* SimpleReactive.swift */; };
-		93FFFAD3D014A12E8E710E229A5BCE5A /* SimpleReactive.h in Headers */ = {isa = PBXBuildFile; fileRef = 91EF0E7067612E02AF94D7E0F69C5DA5 /* SimpleReactive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5080F76806F2BCAB8106CB8C9EEEF1 /* SimpleReactive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 872088DF28296EF6C1D39D01CC0DB412 /* SimpleReactive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901D360AD1393F328847B0B5033E39D0 /* SimpleReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13F3F30567845C297979356512453E2 /* SimpleReactive.swift */; };
+		93FFFAD3D014A12E8E710E229A5BCE5A /* SimpleReactive.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCD155557430339A2DA08FFFE89BBDD /* SimpleReactive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB2043CE7B22FC6E955D47EF93F73690 /* Pods-SimpleReactive_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 974095FD514D1A00FA5D7FD4080C8065 /* Pods-SimpleReactive_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C15DC31BD78CA204C3BF79D698035A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EA06F0E1D7186BA51A18E1C687DB9FAF /* Pods-SimpleReactive_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C265DF168911416D31D30D2FDB69ADD8 /* Pods-SimpleReactive_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		48DCD4F03DCB6755FA1ADD7DDAE019BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84874DC6A2888682D253F06E4CC31079;
-			remoteInfo = "SimpleReactive-SimpleReactive";
-		};
 		BD4080852805D79746D92C12DDAC35E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -40,40 +32,38 @@
 
 /* Begin PBXFileReference section */
 		000E2E6F007953A190F2BCF30DD40BB9 /* Pods-SimpleReactive_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleReactive_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0088ADDD9F8D42F00BE3FB16CCDF7F91 /* SimpleReactive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleReactive-dummy.m"; sourceTree = "<group>"; };
 		054C0DB8DFBC74A4578CC1276FC616ED /* Pods-SimpleReactive_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleReactive_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0C5192091B04C76FDC78A399041AE136 /* Pods_SimpleReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleReactive_Example.framework; path = "Pods-SimpleReactive_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18927DC746193357C8D3FE6E8A567C7D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2294695C073BCB3A5E0D63A36965DF61 /* Pods-SimpleReactive_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleReactive_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		38D5B100D1A7CE9FE92B1D561C7AA849 /* Pods_SimpleReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleReactive_Example.framework; path = "Pods-SimpleReactive_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3349A0E88A6CF6ECE93715A9A9310C92 /* Pods_SimpleReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleReactive_Tests.framework; path = "Pods-SimpleReactive_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		434ED2A60A9EB0791A88FE38957C9238 /* Pods-SimpleReactive_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleReactive_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4522CFD151231E544DBD47DB32AE9D33 /* SimpleReactive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleReactive-umbrella.h"; sourceTree = "<group>"; };
 		4B02CF98843F29F62BE7B8C0B5BB7DCB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60729DA80C53A377C107C2752C8FA78F /* Pods-SimpleReactive_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleReactive_Tests-resources.sh"; sourceTree = "<group>"; };
-		62A84D2E1DDEE2837F1BBFDEE8DCC4E4 /* SimpleReactive.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SimpleReactive.bundle; path = SimpleReactive.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68AED8B4288207196763D3D2B26CF29D /* Pods-SimpleReactive_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleReactive_Tests.modulemap"; sourceTree = "<group>"; };
 		68F7DB47B0B7984ADCAE111FD5942588 /* Pods-SimpleReactive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleReactive_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6C59C270A3431A9764AC02DBF4D33A03 /* SimpleReactive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleReactive.xcconfig; sourceTree = "<group>"; };
-		873F5045141B3B5CA84DD2C3437423A5 /* SimpleReactive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleReactive.modulemap; sourceTree = "<group>"; };
+		69B7B1D5C76C273F3F473FD7AB64A46A /* SimpleReactive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleReactive.modulemap; sourceTree = "<group>"; };
+		6CCD155557430339A2DA08FFFE89BBDD /* SimpleReactive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimpleReactive.h; sourceTree = "<group>"; };
+		80B06565177ACF7729CD965F84408DAC /* SimpleReactive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleReactive-dummy.m"; sourceTree = "<group>"; };
+		872088DF28296EF6C1D39D01CC0DB412 /* SimpleReactive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleReactive-umbrella.h"; sourceTree = "<group>"; };
 		9108E6663B1981271C56849BFF1FA93B /* Pods-SimpleReactive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleReactive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		91EF0E7067612E02AF94D7E0F69C5DA5 /* SimpleReactive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimpleReactive.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94864828918778537FE2E74EF894397F /* SimpleReactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleReactive.swift; sourceTree = "<group>"; };
 		951FF29623491BC3F42EF8A8ACCCD5D8 /* Pods-SimpleReactive_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleReactive_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		974095FD514D1A00FA5D7FD4080C8065 /* Pods-SimpleReactive_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleReactive_Example-umbrella.h"; sourceTree = "<group>"; };
 		9951344EC60D00146C9A28F9858EC691 /* Pods-SimpleReactive_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SimpleReactive_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A693E993319BD123CF590BBC5C365399 /* SimpleReactive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleReactive-prefix.pch"; sourceTree = "<group>"; };
+		9C9BEC1088EB501D97CA60FC51884D1F /* SimpleReactive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleReactive-prefix.pch"; sourceTree = "<group>"; };
+		ACB1903011221C1174362D51C5E1EA6C /* SimpleReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleReactive.framework; path = SimpleReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13F3F30567845C297979356512453E2 /* SimpleReactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SimpleReactive.swift; sourceTree = "<group>"; };
 		B6607BEA2E9A3B86B8A7A2B91211D673 /* Pods-SimpleReactive_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SimpleReactive_Example.modulemap"; sourceTree = "<group>"; };
-		BAE22E32CE8DFE69F377A66BAB2EA3A1 /* Pods_SimpleReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SimpleReactive_Tests.framework; path = "Pods-SimpleReactive_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C265DF168911416D31D30D2FDB69ADD8 /* Pods-SimpleReactive_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SimpleReactive_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C2BDA1868D04A6E4D58D1E52E776EECD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D29054924870867F8FE75FE473DAB5D2 /* Pods-SimpleReactive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SimpleReactive_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D612A41C916ED92CF7F753B57938FF7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB6E6BDFF12335BCF0C00CEE8A6689AC /* SimpleReactive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleReactive.xcconfig; sourceTree = "<group>"; };
 		E4A7D3291AC3DEB34386F36A3F3CCF15 /* Pods-SimpleReactive_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SimpleReactive_Example-resources.sh"; sourceTree = "<group>"; };
 		EBF54BAC33FB5DA321A325A2BACCD00B /* Pods-SimpleReactive_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleReactive_Tests-dummy.m"; sourceTree = "<group>"; };
 		F4A60CD42827992C9FC14E4643BE7C4C /* Pods-SimpleReactive_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SimpleReactive_Example-dummy.m"; sourceTree = "<group>"; };
-		F598844742954313192CF8554D331F21 /* SimpleReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleReactive.framework; path = SimpleReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6D5C798C1563FC3B66612554BBB084 /* Pods-SimpleReactive_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SimpleReactive_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FC7F8A997CC09522ADE867E3811F89E6 /* ResourceBundle-SimpleReactive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SimpleReactive-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,16 +91,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9C36A59FBEDC37BA9F9D4BA263DBACA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A487A6A59563F1CC30C3E9568ED01EE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DEB5CCFAD2305E31B8F40E93299901FF /* SimpleReactive */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
 		1B9F199D091CEDA568FD5A9B48E9359B /* Pods-SimpleReactive_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,28 +123,19 @@
 		2184DE1DEC01C737046A4F80082EDB38 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3EBA14A0302AABA5DD6FA86205A68222 /* SimpleReactive */,
+				8BB06FCE192FA035849EF5227AA59F1A /* SimpleReactive */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		3EBA14A0302AABA5DD6FA86205A68222 /* SimpleReactive */ = {
+		72914E41847BF0745707B2F91D405FBA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E9C299804306D57B1027345EFECEB084 /* Source */,
-				F6BA0B83E0168459CFA8BFA5696A66F1 /* Support Files */,
+				6CCD155557430339A2DA08FFFE89BBDD /* SimpleReactive.h */,
+				B13F3F30567845C297979356512453E2 /* SimpleReactive.swift */,
 			);
-			name = SimpleReactive;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		413D4953567F5A8B42C588D08F3883BE /* SimpleReactive */ = {
-			isa = PBXGroup;
-			children = (
-				A15E890789E7434AA66C7904DB946313 /* Classes */,
-			);
-			name = SimpleReactive;
-			path = SimpleReactive;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		771EF54E54556BF48B15DAC5CF67FA74 /* Pods-SimpleReactive_Example */ = {
@@ -180,19 +162,33 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2184DE1DEC01C737046A4F80082EDB38 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C4765EDB955C8443D1D801A1B84CF689 /* Products */,
+				E69428FD2900161503377A87E003CF5B /* Products */,
 				E9549B777C0E84A2AA3E94B54FCACFB3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A15E890789E7434AA66C7904DB946313 /* Classes */ = {
+		87C32FE344A7CA6BA070959A260D3825 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				91EF0E7067612E02AF94D7E0F69C5DA5 /* SimpleReactive.h */,
-				94864828918778537FE2E74EF894397F /* SimpleReactive.swift */,
+				18927DC746193357C8D3FE6E8A567C7D /* Info.plist */,
+				69B7B1D5C76C273F3F473FD7AB64A46A /* SimpleReactive.modulemap */,
+				DB6E6BDFF12335BCF0C00CEE8A6689AC /* SimpleReactive.xcconfig */,
+				80B06565177ACF7729CD965F84408DAC /* SimpleReactive-dummy.m */,
+				9C9BEC1088EB501D97CA60FC51884D1F /* SimpleReactive-prefix.pch */,
+				872088DF28296EF6C1D39D01CC0DB412 /* SimpleReactive-umbrella.h */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "Pods/Target Support Files/SimpleReactive";
+			sourceTree = "<group>";
+		};
+		8BB06FCE192FA035849EF5227AA59F1A /* SimpleReactive */ = {
+			isa = PBXGroup;
+			children = (
+				0A487A6A59563F1CC30C3E9568ED01EE /* Source */,
+				87C32FE344A7CA6BA070959A260D3825 /* Support Files */,
+			);
+			name = SimpleReactive;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -203,23 +199,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C4765EDB955C8443D1D801A1B84CF689 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				38D5B100D1A7CE9FE92B1D561C7AA849 /* Pods_SimpleReactive_Example.framework */,
-				BAE22E32CE8DFE69F377A66BAB2EA3A1 /* Pods_SimpleReactive_Tests.framework */,
-				62A84D2E1DDEE2837F1BBFDEE8DCC4E4 /* SimpleReactive.bundle */,
-				F598844742954313192CF8554D331F21 /* SimpleReactive.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEB5CCFAD2305E31B8F40E93299901FF /* SimpleReactive */ = {
+			isa = PBXGroup;
+			children = (
+				72914E41847BF0745707B2F91D405FBA /* Classes */,
+			);
+			name = SimpleReactive;
+			path = SimpleReactive;
+			sourceTree = "<group>";
+		};
+		E69428FD2900161503377A87E003CF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C5192091B04C76FDC78A399041AE136 /* Pods_SimpleReactive_Example.framework */,
+				3349A0E88A6CF6ECE93715A9A9310C92 /* Pods_SimpleReactive_Tests.framework */,
+				ACB1903011221C1174362D51C5E1EA6C /* SimpleReactive.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E9549B777C0E84A2AA3E94B54FCACFB3 /* Targets Support Files */ = {
@@ -229,29 +233,6 @@
 				1B9F199D091CEDA568FD5A9B48E9359B /* Pods-SimpleReactive_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E9C299804306D57B1027345EFECEB084 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				413D4953567F5A8B42C588D08F3883BE /* SimpleReactive */,
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
-		F6BA0B83E0168459CFA8BFA5696A66F1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D612A41C916ED92CF7F753B57938FF7A /* Info.plist */,
-				FC7F8A997CC09522ADE867E3811F89E6 /* ResourceBundle-SimpleReactive-Info.plist */,
-				873F5045141B3B5CA84DD2C3437423A5 /* SimpleReactive.modulemap */,
-				6C59C270A3431A9764AC02DBF4D33A03 /* SimpleReactive.xcconfig */,
-				0088ADDD9F8D42F00BE3FB16CCDF7F91 /* SimpleReactive-dummy.m */,
-				A693E993319BD123CF590BBC5C365399 /* SimpleReactive-prefix.pch */,
-				4522CFD151231E544DBD47DB32AE9D33 /* SimpleReactive-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/SimpleReactive";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,25 +280,8 @@
 			);
 			name = "Pods-SimpleReactive_Tests";
 			productName = "Pods-SimpleReactive_Tests";
-			productReference = BAE22E32CE8DFE69F377A66BAB2EA3A1 /* Pods_SimpleReactive_Tests.framework */;
+			productReference = 3349A0E88A6CF6ECE93715A9A9310C92 /* Pods_SimpleReactive_Tests.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		84874DC6A2888682D253F06E4CC31079 /* SimpleReactive-SimpleReactive */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A953786639F1E62D8106C971977B21D1 /* Build configuration list for PBXNativeTarget "SimpleReactive-SimpleReactive" */;
-			buildPhases = (
-				1799230B8742FFB7A109F633851840A0 /* Sources */,
-				D9C36A59FBEDC37BA9F9D4BA263DBACA /* Frameworks */,
-				C5E29ECE07085739430499A7F5ABCC97 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SimpleReactive-SimpleReactive";
-			productName = "SimpleReactive-SimpleReactive";
-			productReference = 62A84D2E1DDEE2837F1BBFDEE8DCC4E4 /* SimpleReactive.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		98E73E88BA2A5B03042A0A1F02CFCCED /* Pods-SimpleReactive_Example */ = {
 			isa = PBXNativeTarget;
@@ -334,7 +298,7 @@
 			);
 			name = "Pods-SimpleReactive_Example";
 			productName = "Pods-SimpleReactive_Example";
-			productReference = 38D5B100D1A7CE9FE92B1D561C7AA849 /* Pods_SimpleReactive_Example.framework */;
+			productReference = 0C5192091B04C76FDC78A399041AE136 /* Pods_SimpleReactive_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A6D668CD718AF4E4928E94BF9477B10C /* SimpleReactive */ = {
@@ -343,17 +307,15 @@
 			buildPhases = (
 				7A75768451C516446D51B48C0A1F4585 /* Sources */,
 				2180343214138791C94933F550B4705F /* Frameworks */,
-				9F3C63D06394EE01CA62D70DC3A9D4D7 /* Resources */,
 				6D95BC37B08AE057326DEA4F843BCD0D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5422A5BF4EC1162CBC6B6FE35C983C85 /* PBXTargetDependency */,
 			);
 			name = SimpleReactive;
 			productName = SimpleReactive;
-			productReference = F598844742954313192CF8554D331F21 /* SimpleReactive.framework */;
+			productReference = ACB1903011221C1174362D51C5E1EA6C /* SimpleReactive.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -373,35 +335,16 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C4765EDB955C8443D1D801A1B84CF689 /* Products */;
+			productRefGroup = E69428FD2900161503377A87E003CF5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				98E73E88BA2A5B03042A0A1F02CFCCED /* Pods-SimpleReactive_Example */,
 				3594E5CB3FCB6293885D9D5E3057CEE0 /* Pods-SimpleReactive_Tests */,
 				A6D668CD718AF4E4928E94BF9477B10C /* SimpleReactive */,
-				84874DC6A2888682D253F06E4CC31079 /* SimpleReactive-SimpleReactive */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		9F3C63D06394EE01CA62D70DC3A9D4D7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				620EEA69C3733676082620E3E61CD8C2 /* SimpleReactive.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5E29ECE07085739430499A7F5ABCC97 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1558BD6C2CCEFDF641966DBF386A6B5E /* Sources */ = {
@@ -409,13 +352,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AB33D269DE8958F02E8B3381E573B2C /* Pods-SimpleReactive_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1799230B8742FFB7A109F633851840A0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,12 +375,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5422A5BF4EC1162CBC6B6FE35C983C85 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SimpleReactive-SimpleReactive";
-			target = 84874DC6A2888682D253F06E4CC31079 /* SimpleReactive-SimpleReactive */;
-			targetProxy = 48DCD4F03DCB6755FA1ADD7DDAE019BF /* PBXContainerItemProxy */;
-		};
 		8B824430616C9D7E0D753ECE5FFD0B9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleReactive;
@@ -456,7 +386,7 @@
 /* Begin XCBuildConfiguration section */
 		09BC968F79AB19D99E6C4962791F8EFD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C59C270A3431A9764AC02DBF4D33A03 /* SimpleReactive.xcconfig */;
+			baseConfigurationReference = DB6E6BDFF12335BCF0C00CEE8A6689AC /* SimpleReactive.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,23 +466,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		4CC5345E3577650E113B8F450DE5B5C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C59C270A3431A9764AC02DBF4D33A03 /* SimpleReactive.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SimpleReactive";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/SimpleReactive/ResourceBundle-SimpleReactive-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SimpleReactive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -634,26 +547,9 @@
 			};
 			name = Debug;
 		};
-		B4D851F8216C628B7C214823AD852012 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C59C270A3431A9764AC02DBF4D33A03 /* SimpleReactive.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SimpleReactive";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/SimpleReactive/ResourceBundle-SimpleReactive-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = SimpleReactive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		CE05867964752736A4F02AA6AC5ED311 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C59C270A3431A9764AC02DBF4D33A03 /* SimpleReactive.xcconfig */;
+			baseConfigurationReference = DB6E6BDFF12335BCF0C00CEE8A6689AC /* SimpleReactive.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -824,15 +720,6 @@
 			buildConfigurations = (
 				E1797092D9D77C38DD072A886CC98703 /* Debug */,
 				CFA4B03471660DC68FFF336FF7BB2FAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A953786639F1E62D8106C971977B21D1 /* Build configuration list for PBXNativeTarget "SimpleReactive-SimpleReactive" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4D851F8216C628B7C214823AD852012 /* Debug */,
-				4CC5345E3577650E113B8F450DE5B5C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

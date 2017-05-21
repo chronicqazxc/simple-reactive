@@ -22,17 +22,12 @@
   "subspecs": [
     {
       "name": "Source",
-      "source_files": "SimpleReactive/Classes/**/*",
-      "resource_bundles": {
-        "SimpleReactive": [
-          "SimpleReactive/Assets/**/*.{storyboard,xib,jpg,png,plist,xcassets,strings}"
-        ]
-      }
+      "source_files": "SimpleReactive/Classes/**/*"
     },
     {
       "name": "Prebuilt",
       "ios": {
-        "vendored_frameworks": "PrebuiltFramework/SimpleReactive.framework"
+        "vendored_frameworks": "Carthage/Build/iOS/SimpleReactive.framework"
       }
     }
   ]

@@ -1,5 +1,9 @@
 # SimpleReactive
 
+SimpleReactive is my experiment for demonstrate reactive programming.
+
+![demo](demonstration.gif)
+
 [![CI Status](http://img.shields.io/travis/chronicqazxc/simple-reactive.svg?style=flat)](https://travis-ci.org/chronicqazxc/simple-reactive)
 [![Version](https://img.shields.io/cocoapods/v/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
 [![License](https://img.shields.io/cocoapods/l/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
@@ -22,7 +26,7 @@ pod "SimpleReactive"
 
 ## Author
 
-chronicqazxc, chronicqazxc@gmail.com
+Wayne Hsiao, chronicqazxc@gmail.com
 
 ## License
 

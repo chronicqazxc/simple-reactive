@@ -2,6 +2,7 @@
   "name": "SimpleReactive",
   "version": "0.1.0",
   "summary": "A short description of SimpleReactive.",
+  "swift_version": "4.2",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/chronicqazxc/SimpleReactive",
   "license": {
@@ -16,19 +17,13 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "default_subspecs": "Source",
   "subspecs": [
     {
       "name": "Source",
       "source_files": "SimpleReactive/Classes/**/*"
-    },
-    {
-      "name": "Prebuilt",
-      "ios": {
-        "vendored_frameworks": "Carthage/Build/iOS/SimpleReactive.framework"
-      }
     }
   ]
 }

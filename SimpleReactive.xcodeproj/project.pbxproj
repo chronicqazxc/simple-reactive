@@ -10,10 +10,6 @@
 		77BD20A43348AEFD11361FD5 /* Pods_SimpleReactive_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933C82D575F4BA475B6550AE /* Pods_SimpleReactive_Example.framework */; };
 		B056635B1EBF6F7B00838165 /* SimpleReactive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05663521EBF6F7B00838165 /* SimpleReactive.framework */; };
 		B05663621EBF6F7B00838165 /* SimpleReactiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05663611EBF6F7B00838165 /* SimpleReactiveTests.swift */; };
-		B05663671EBF6F7B00838165 /* SimpleReactive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05663521EBF6F7B00838165 /* SimpleReactive.framework */; };
-		B05663681EBF6F7B00838165 /* SimpleReactive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B05663521EBF6F7B00838165 /* SimpleReactive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B05663761EBF6FA700838165 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B05663721EBF6FA700838165 /* .gitkeep */; };
-		B05663771EBF6FA700838165 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = B05663741EBF6FA700838165 /* .gitkeep */; };
 		B05663781EBF6FA700838165 /* SimpleReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05663751EBF6FA700838165 /* SimpleReactive.swift */; };
 		B056637A1EBF700700838165 /* SimpleReactive.h in Headers */ = {isa = PBXBuildFile; fileRef = B05663791EBF700700838165 /* SimpleReactive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B06F25B71EBA2E5D008DD692 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B06F25B41EBA2E5D008DD692 /* LICENSE */; };
@@ -24,9 +20,7 @@
 		B06F25BF1EBA2EB5008DD692 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06F25BE1EBA2EB5008DD692 /* Images.xcassets */; };
 		B06F25C41EBA2EC5008DD692 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06F25C01EBA2EC5008DD692 /* LaunchScreen.xib */; };
 		B06F25C51EBA2EC5008DD692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06F25C21EBA2EC5008DD692 /* Main.storyboard */; };
-		B06F25C71EBA2ED4008DD692 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B06F25C61EBA2ED4008DD692 /* Info.plist */; };
 		B06F25CD1EBA9A5C008DD692 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06F25C81EBA2EE4008DD692 /* Tests.swift */; };
-		B06F25CE1EBA9A60008DD692 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B06F25CA1EBA2EEB008DD692 /* Info.plist */; };
 		CAAEA77E1C22328911E1E639 /* Pods_SimpleReactive_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915AEC6D68CBBD21A2E196EE /* Pods_SimpleReactive_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,28 +46,7 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = SimpleReactive_Example;
 		};
-		B05663651EBF6F7B00838165 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B05663511EBF6F7B00838165;
-			remoteInfo = SimpleReactive;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		B056636E1EBF6F7B00838165 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				B05663681EBF6F7B00838165 /* SimpleReactive.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		44B81DC548C93B5AC580B591 /* Pods-SimpleReactive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleReactive_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleReactive_Tests/Pods-SimpleReactive_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +56,8 @@
 		7AF07A0A8FEC36552E92EEBF /* Pods-SimpleReactive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleReactive_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleReactive_Example/Pods-SimpleReactive_Example.release.xcconfig"; sourceTree = "<group>"; };
 		915AEC6D68CBBD21A2E196EE /* Pods_SimpleReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleReactive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933C82D575F4BA475B6550AE /* Pods_SimpleReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleReactive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B054EBBA228826C900352B71 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		B054EBBF2288387600352B71 /* demonstration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demonstration.gif; sourceTree = "<group>"; };
 		B05663521EBF6F7B00838165 /* SimpleReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05663551EBF6F7B00838165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B056635A1EBF6F7B00838165 /* SimpleReactiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleReactiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,7 +87,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				77BD20A43348AEFD11361FD5 /* Pods_SimpleReactive_Example.framework in Frameworks */,
-				B05663671EBF6F7B00838165 /* SimpleReactive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +128,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				B054EBBF2288387600352B71 /* demonstration.gif */,
+				B054EBBA228826C900352B71 /* Gemfile */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				B06F25CC1EBA2F08008DD692 /* Example */,
 				B05663701EBF6F8700838165 /* Framework */,
@@ -313,13 +289,10 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				15B07BE85C27D86E1BBC031C /* [CP] Embed Pods Frameworks */,
-				76EC3C3E73A194671B690C7D /* [CP] Copy Pods Resources */,
-				B056636E1EBF6F7B00838165 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B05663661EBF6F7B00838165 /* PBXTargetDependency */,
 			);
 			name = SimpleReactive_Example;
 			productName = SimpleReactive;
@@ -334,8 +307,6 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				E4F41C56490040238C968F43 /* [CP] Embed Pods Frameworks */,
-				90EADC579DD869AD00E6FB6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -391,7 +362,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -420,6 +391,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -447,7 +419,6 @@
 				B06F25C51EBA2EC5008DD692 /* Main.storyboard in Resources */,
 				B06F25B71EBA2E5D008DD692 /* LICENSE in Resources */,
 				B06F25B91EBA2E5D008DD692 /* SimpleReactive.podspec in Resources */,
-				B06F25C71EBA2ED4008DD692 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +426,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B06F25CE1EBA9A60008DD692 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,8 +433,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B05663761EBF6FA700838165 /* .gitkeep in Resources */,
-				B05663771EBF6FA700838165 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,13 +452,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleReactive_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		15B07BE85C27D86E1BBC031C /* [CP] Embed Pods Frameworks */ = {
@@ -499,43 +470,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SimpleReactive_Example/Pods-SimpleReactive_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SimpleReactive/SimpleReactive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimpleReactive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleReactive_Example/Pods-SimpleReactive_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		76EC3C3E73A194671B690C7D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleReactive_Example/Pods-SimpleReactive_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90EADC579DD869AD00E6FB6A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleReactive_Tests/Pods-SimpleReactive_Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SimpleReactive_Example/Pods-SimpleReactive_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A444971A16855A19BA8DB4C0 /* [CP] Check Pods Manifest.lock */ = {
@@ -544,28 +488,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleReactive_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E4F41C56490040238C968F43 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleReactive_Tests/Pods-SimpleReactive_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -621,11 +553,6 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* SimpleReactive_Example */;
 			targetProxy = B056635E1EBF6F7B00838165 /* PBXContainerItemProxy */;
-		};
-		B05663661EBF6F7B00838165 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B05663511EBF6F7B00838165 /* SimpleReactive */;
-			targetProxy = B05663651EBF6F7B00838165 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -688,11 +615,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 			};
 			name = Debug;
 		};
@@ -728,10 +656,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -740,14 +669,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 75E3A7B0D19679B53BAE7B5E /* Pods-SimpleReactive_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Classes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -755,14 +684,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AF07A0A8FEC36552E92EEBF /* Pods-SimpleReactive_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Classes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_TREAT_WARNINGS_AS_ERRORS = YES;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -784,7 +713,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleReactive_Example.app/SimpleReactive_Example";
 			};
 			name = Debug;
@@ -803,7 +732,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleReactive_Example.app/SimpleReactive_Example";
 			};
 			name = Release;
@@ -829,7 +758,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -855,7 +784,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynehsiao.SimpleReactive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -877,7 +806,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynehsiao.SimpleReactiveTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleReactive_Example.app/SimpleReactive_Example";
 			};
 			name = Debug;
@@ -895,7 +824,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.waynehsiao.SimpleReactiveTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleReactive_Example.app/SimpleReactive_Example";
 			};
 			name = Release;

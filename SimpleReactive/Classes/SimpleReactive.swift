@@ -72,7 +72,7 @@ public class SimpleColdSignal<T>: NSObject, ObserveType {
         lock.unlock()
     }
 
-    open func bindTo<B:SimpleColdSignal<T>>(bindable: B) {
+    public func bindTo<B:SimpleColdSignal<T>>(bindable: B) {
         observe { bindable.next($0) }
     }
     

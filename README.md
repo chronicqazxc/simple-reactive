@@ -1,4 +1,8 @@
 # SimpleReactive
+[![CI Status](http://img.shields.io/travis/chronicqazxc/simple-reactive.svg?style=flat)](https://travis-ci.org/chronicqazxc/simple-reactive)
+[![Version](https://img.shields.io/cocoapods/v/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
+[![License](https://img.shields.io/cocoapods/l/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
+[![Platform](https://img.shields.io/cocoapods/p/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
 
 SimpleReactive is my experiment for demonstrate reactive programming.  
 ![demo](demonstration.gif)  
@@ -6,11 +10,13 @@ SimpleReactive is my experiment for demonstrate reactive programming.
 @IBOutlet weak var value2Display: UILabel!
 @IBOutlet weak var value2Display2: UILabel!
 let singal = SimpleColdSignal("")
+
 override func viewDidLoad() {
     super.viewDidLoad()
     singal.bindTo(label: value2Display)
     singal.bindTo(label: value2Display2)
 }
+
 func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
     let nsString = textField.text as NSString?
     let newString = nsString?.replacingCharacters(in: range, with: string)
@@ -18,11 +24,6 @@ func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange
     return true
 }
 ```
-
-[![CI Status](http://img.shields.io/travis/chronicqazxc/simple-reactive.svg?style=flat)](https://travis-ci.org/chronicqazxc/simple-reactive)
-[![Version](https://img.shields.io/cocoapods/v/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
-[![License](https://img.shields.io/cocoapods/l/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
-[![Platform](https://img.shields.io/cocoapods/p/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)
 
 ## Example
 

@@ -17,12 +17,15 @@ class ViewController: UIViewController {
         }
     }
     @IBOutlet weak var value2Display: UILabel!
-    let singal = SimpleColdSignal("1")
+    @IBOutlet weak var value2Display2: UILabel!
+    
+    let singal = SimpleColdSignal("")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         singal.bindTo(label: value2Display)
+        singal.bindTo(label: value2Display2)
     }
 
     override func didReceiveMemoryWarning() {

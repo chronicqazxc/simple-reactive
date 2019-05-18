@@ -4,10 +4,12 @@ SimpleReactive is my experiment for demonstrate reactive programming.
 ![demo](demonstration.gif)  
 ```swift
 @IBOutlet weak var value2Display: UILabel!
+@IBOutlet weak var value2Display2: UILabel!
 let singal = SimpleColdSignal("")
 override func viewDidLoad() {
     super.viewDidLoad()
     singal.bindTo(label: value2Display)
+    singal.bindTo(label: value2Display2)
 }
 func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
     let nsString = textField.text as NSString?

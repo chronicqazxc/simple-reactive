@@ -88,4 +88,10 @@ public class SimpleColdSignal<T>: NSObject, ObserveType {
         lock.unlock()
         observerStorage[token] = observer
     }
+    
+//    public func bindTo(label: UILabel) {
+//        observe {
+//            label.text = $0 as? String ?? ""
+//        }
+//    }
 }

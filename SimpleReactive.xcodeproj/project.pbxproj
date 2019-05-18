@@ -57,7 +57,6 @@
 		915AEC6D68CBBD21A2E196EE /* Pods_SimpleReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleReactive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933C82D575F4BA475B6550AE /* Pods_SimpleReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleReactive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054EBBA228826C900352B71 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		B054EBBF2288387600352B71 /* demonstration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demonstration.gif; sourceTree = "<group>"; };
 		B05663521EBF6F7B00838165 /* SimpleReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05663551EBF6F7B00838165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B056635A1EBF6F7B00838165 /* SimpleReactiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleReactiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +77,7 @@
 		B06F25C61EBA2ED4008DD692 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Classes/Info.plist; sourceTree = SOURCE_ROOT; };
 		B06F25C81EBA2EE4008DD692 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tests.swift; path = Example/Tests/Tests.swift; sourceTree = SOURCE_ROOT; };
 		B06F25CA1EBA2EEB008DD692 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Tests/Info.plist; sourceTree = SOURCE_ROOT; };
+		B0EACC50228FC140003B107F /* demonstration.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demonstration.gif; sourceTree = "<group>"; };
 		E05953CE8C2D9D38650A2935 /* Pods-SimpleReactive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleReactive_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleReactive_Tests/Pods-SimpleReactive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +128,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				B054EBBF2288387600352B71 /* demonstration.gif */,
+				B0EACC50228FC140003B107F /* demonstration.gif */,
 				B054EBBA228826C900352B71 /* Gemfile */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				B06F25CC1EBA2F08008DD692 /* Example */,

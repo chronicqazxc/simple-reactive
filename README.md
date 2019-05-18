@@ -1,7 +1,7 @@
 # SimpleReactive
 
-SimpleReactive is my experiment for demonstrate reactive programming.
-
+SimpleReactive is my experiment for demonstrate reactive programming.  
+![demo](demonstration.gif)  
 ```swift
 @IBOutlet weak var value2Display: UILabel!
 let singal = SimpleColdSignal("")
@@ -16,7 +16,6 @@ func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange
     return true
 }
 ```
-![demo](demonstration.gif)
 
 [![CI Status](http://img.shields.io/travis/chronicqazxc/simple-reactive.svg?style=flat)](https://travis-ci.org/chronicqazxc/simple-reactive)
 [![Version](https://img.shields.io/cocoapods/v/SimpleReactive.svg?style=flat)](http://cocoapods.org/pods/SimpleReactive)

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77BD20A43348AEFD11361FD5 /* Pods_SimpleReactive_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 933C82D575F4BA475B6550AE /* Pods_SimpleReactive_Example.framework */; };
+		B055FCB02299464E00A4C904 /* +UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B055FCAF2299464E00A4C904 /* +UILabel.swift */; };
 		B056635B1EBF6F7B00838165 /* SimpleReactive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B05663521EBF6F7B00838165 /* SimpleReactive.framework */; };
 		B05663621EBF6F7B00838165 /* SimpleReactiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05663611EBF6F7B00838165 /* SimpleReactiveTests.swift */; };
 		B05663781EBF6FA700838165 /* SimpleReactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05663751EBF6FA700838165 /* SimpleReactive.swift */; };
@@ -57,13 +58,12 @@
 		915AEC6D68CBBD21A2E196EE /* Pods_SimpleReactive_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleReactive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933C82D575F4BA475B6550AE /* Pods_SimpleReactive_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleReactive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B054EBBA228826C900352B71 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		B055FCAF2299464E00A4C904 /* +UILabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "+UILabel.swift"; sourceTree = "<group>"; };
 		B05663521EBF6F7B00838165 /* SimpleReactive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleReactive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05663551EBF6F7B00838165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B056635A1EBF6F7B00838165 /* SimpleReactiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleReactiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05663611EBF6F7B00838165 /* SimpleReactiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleReactiveTests.swift; sourceTree = "<group>"; };
 		B05663631EBF6F7B00838165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B05663721EBF6FA700838165 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		B05663741EBF6FA700838165 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B05663751EBF6FA700838165 /* SimpleReactive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleReactive.swift; sourceTree = "<group>"; };
 		B05663791EBF700700838165 /* SimpleReactive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleReactive.h; sourceTree = "<group>"; };
 		B06F25B41EBA2E5D008DD692 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -242,7 +242,6 @@
 		B05663711EBF6FA700838165 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				B05663721EBF6FA700838165 /* .gitkeep */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -250,8 +249,8 @@
 		B05663731EBF6FA700838165 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B05663741EBF6FA700838165 /* .gitkeep */,
 				B05663751EBF6FA700838165 /* SimpleReactive.swift */,
+				B055FCAF2299464E00A4C904 /* +UILabel.swift */,
 				B05663791EBF700700838165 /* SimpleReactive.h */,
 			);
 			path = Classes;
@@ -524,6 +523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B055FCB02299464E00A4C904 /* +UILabel.swift in Sources */,
 				B05663781EBF6FA700838165 /* SimpleReactive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

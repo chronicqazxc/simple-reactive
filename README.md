@@ -42,7 +42,7 @@ pod "SimpleReactive"
 
 ## Author
 
-Wayne Hsiao, chronicqazxc@gmail.com
+[Wayne Hsiao](mailto:chronicqazxc@gmail.com)
 
 ## License
 
